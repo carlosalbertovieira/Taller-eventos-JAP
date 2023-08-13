@@ -1,11 +1,16 @@
-const ElementoDiv = document.getElementById('div')
-const ElementoBoton = document.getElementById('boton')
+document.addEventListener("DOMContentLoaded", function() {
+    const ElementoDiv = document.getElementById('div');
+    const ElementoBoton = document.getElementById('boton');
 
-ElementoBoton.addEventListener('click', function (event) {
-    event.stopPropagation();
-});
+    if (ElementoBoton) {
+        ElementoBoton.addEventListener('click', function (event) {
+            event.stopPropagation();
+        });
+    }
 
-
-ElementoDiv.addEventListener("click", function(){
-    alert ('Hola! Soy el div.');
+    if (ElementoDiv) {
+        ElementoDiv.addEventListener("click", function(){
+            alert('¡Hola! Soy el div.');
+        });
+    }
 });
