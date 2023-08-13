@@ -1,13 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const divElement = document.getElementById('botonContainer');
+    const divElement = document.querySelector('div');
     
     divElement.addEventListener('click', function () {
-        alert('Hola! Soy el div');
+      alert('Hola! Soy el div');
     });
-
-    const saludarButton = document.getElementById('saludarBtn');
+  
+    const saludarButton = document.getElementById('saludarButton');
     
     saludarButton.onclick = function () {
-        alert('Hola!');
+      alert('Hola!');
     };
-});
+  });
+  
