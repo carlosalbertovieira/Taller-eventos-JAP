@@ -11,4 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
       alert('Hola!');
     };
   });
-  
+   const saludarButton = document.getElementById('saludarButton');
+
+  saludarButton.onclick = function (event) {
+    alert('Hola!');
+    event.stopPropagation(); // Evita que el evento se propague al div
+  };
+});
