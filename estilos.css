@@ -1,0 +1,14 @@
+#div{
+    padding: 5px;
+    background-color: rgb(124, 238, 124);
+    display: flex;
+    justify-content: left;
+   
+}
+#boton{
+    background-color: green;
+    font-style: bold;
+    font-size: 15px;
+
+    
+}
