@@ -10,5 +10,3 @@ document.addEventListener('DOMContentLoaded', function () {
     saludarButton.onclick = function () {
       alert('Hola!');
     };
-  });
-   
